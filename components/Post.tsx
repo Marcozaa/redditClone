@@ -117,7 +117,7 @@ export default function Post({post}: Props) {
                         <Link href={`/subreddit/${post.subreddit?.topic}`}>
                         <span
                         className='font-bold text-black hover:text-blue-400'
-                        >r/{post.subreddit?.topic}
+                        >r/{post.subreddit.topic}
                         </span> 
                         </Link>
                         &nbsp; 

@@ -25,11 +25,11 @@ type Post = {
     body: string
     created_at: string
     id: number
-    inage: string
+    image: string
     subreddit_id: number
     title: string
     username: string
     votes: Vote[]
     comments: Comments []
-    subreddit: Subreddit []
+    subreddit: Subreddit
 }
